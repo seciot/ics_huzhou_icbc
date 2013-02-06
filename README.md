@@ -1,4 +1,4 @@
 ics_huzhou_icbc
 ===============
 
-ics server for huzhou icbc
+湖州工行对接服务
