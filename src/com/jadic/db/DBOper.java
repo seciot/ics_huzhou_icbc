@@ -46,7 +46,7 @@ public class DBOper {
 		Connection conn = null;
 		PosData posData = null;
 		InputStream is = null;
-		byte[] buf = new byte[256];
+		byte[] buf = null;
 		try {
 			conn = getConnection();
 			if (conn != null) {
@@ -58,6 +58,7 @@ public class DBOper {
 					posData.setPosId(rs.getString("posid"));
 					posData.setRecvTime(rs.getString("recvtime"));
 					is = rs.getBinaryStream("data");
+					buf = new byte[256];
 					is.read(buf);
 					posData.setData(buf);
 					//posData.setData(rs.getBytes("data"));
