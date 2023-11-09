@@ -9,7 +9,8 @@ import org.jboss.netty.buffer.ChannelBuffer;
 import com.jadic.utils.KKTool;
 
 public abstract class CmdHeadIc2Pos extends CmdHead{
-	
+
+
 	private short retCode;
 
 	public CmdHeadIc2Pos () {

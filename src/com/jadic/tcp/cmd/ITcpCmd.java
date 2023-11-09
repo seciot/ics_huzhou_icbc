@@ -19,3 +19,4 @@ public interface ITcpCmd {
 	public boolean disposeData(ChannelBuffer channelBuffer);
 	public boolean fillChannelBuffer(ChannelBuffer channelBuffer);
 }
+

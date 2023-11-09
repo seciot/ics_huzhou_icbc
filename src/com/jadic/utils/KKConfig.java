@@ -72,3 +72,4 @@ public class KKConfig {
     	return false;
     }
 }
+

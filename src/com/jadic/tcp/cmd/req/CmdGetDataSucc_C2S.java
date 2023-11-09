@@ -39,3 +39,4 @@ public class CmdGetDataSucc_C2S extends TcpCmdHead {
 	}
 
 }
+

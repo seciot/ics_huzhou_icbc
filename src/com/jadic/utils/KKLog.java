@@ -25,6 +25,7 @@ public class KKLog {
 //		sendData("this is send data msg");
 	}
 
+
 	public static void main(String[] args) {
 		debug("this is debug msg");
 		info("this is info msg");

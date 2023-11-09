@@ -15,3 +15,4 @@ public interface ICmd {
 	public boolean fillChannelBuffer(ChannelBuffer channelBuffer);
 	public short getCmdPackSize();
 }
+

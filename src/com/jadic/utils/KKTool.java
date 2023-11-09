@@ -61,6 +61,7 @@ public class KKTool {
         return ret.toString();
     }
 
+
     /**
      * 从字节数组中截取4个字节转成整型，不足4个字节不进行转换返回0
      * @param data   a2 00 00 00 04

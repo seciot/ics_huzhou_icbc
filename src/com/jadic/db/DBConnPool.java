@@ -12,6 +12,7 @@ import com.jadic.utils.SysParams;
 import com.jolbox.bonecp.BoneCP;
 import com.jolbox.bonecp.BoneCPConfig;
 
+
 public class DBConnPool {
 	private static DBConnPool connPool = null;
 	private BoneCP boneCP = null;

@@ -18,7 +18,8 @@ import com.jadic.utils.KKTool;
 public class TcpChannels {
 	
 	//private int type;//0:connected but not authenticated  1:authenticated
-	
+
+
 	private boolean isLoopTcpChannels = true;
 	private ExecutorService threadPoolDisposeTcpData;
 	//public final static long MAXOVERTIME = 60 * 60 * 1000;

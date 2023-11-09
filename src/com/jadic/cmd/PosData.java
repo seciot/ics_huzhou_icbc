@@ -13,7 +13,8 @@ public class PosData {
 	private String posId;
 	private int id;
 	
-	
+
+
 	public PosData() {
 		data = ConstDefine.BLANKPOSDATA;
 		recvTime = ConstDefine.BLANKSTR;

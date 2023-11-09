@@ -84,6 +84,7 @@ public class TcpCmdHead implements ITcpCmd{
 		return msgFlag;
 	}
 
+
 	public void setMsgFlag(byte msgFlag) {
 		this.msgFlag = msgFlag;
 	}

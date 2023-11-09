@@ -21,6 +21,7 @@ import com.jadic.utils.KKTool;
  * @author Jadic
  *
  */
+
 public class ThreadSendData implements Runnable {
 	
 	private TcpChannel tcpChannel;

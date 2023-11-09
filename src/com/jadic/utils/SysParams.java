@@ -5,13 +5,14 @@
 package com.jadic.utils;
 
 
+
 public class SysParams {
 
 	/* tcp相关 */
 	private int localTcpPort;// 本地监听tcp端口
 	private int autoDisconnectMinutes = 2 * 60;// 自动断开的时间
 	
-	/*tcp客户端连接的Ip，工行连接的限制IP*/
+	/*tcp客户端连接的Ip，出租车连接的限制IP*/
 	private String clientIp = "192.168.6.19";
 	
 	/* 数据库相关参数 */

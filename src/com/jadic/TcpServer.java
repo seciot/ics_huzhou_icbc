@@ -17,7 +17,8 @@ import org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory;
 import com.jadic.utils.KKLog;
 
 public class TcpServer{
-	
+
+
 //	public final static TcpChannels tcpChannelsNoAuth = new TcpChannels(0, 0);
 	public final static TcpChannels tcpChannels = new TcpChannels(20);//Runtime.getRuntime().availableProcessors() + 2);
 	private int localPort;
