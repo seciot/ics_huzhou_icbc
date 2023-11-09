@@ -88,6 +88,7 @@ public abstract class CmdHead implements ICmd {
 		}
 	}
 
+
 	@Override
 	public boolean fillChannelBuffer(ChannelBuffer channelBuffer) {
 		try {

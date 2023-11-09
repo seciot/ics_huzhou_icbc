@@ -116,7 +116,8 @@ public class Ics implements IDisposeData, IKKTimer {
 			KKLog.error("Ics.disposData Err:" + KKTool.getExceptionTip(e));
 		}
 	}
-	
+
+
 	private void dealCmdLogin(CmdLogin_C2S cmdLogin, TcpChannel tcpChannel) {
 		CmdLoginResp_S2C cmdLoginResp = new CmdLoginResp_S2C();
 		tcpChannel.setUserId(cmdLogin.getUserId());

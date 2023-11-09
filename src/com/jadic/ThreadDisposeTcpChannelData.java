@@ -11,7 +11,8 @@ import com.jadic.utils.KKLog;
 import com.jadic.utils.KKTool;
 
 public class ThreadDisposeTcpChannelData implements Runnable {
-	
+
+
 	private TcpChannel tcpChannel;
 	private IDisposeData iDisposeData;
 	
@@ -63,7 +64,7 @@ public class ThreadDisposeTcpChannelData implements Runnable {
 				try {
 					oldReaderIndex = buffer.readerIndex();
 					cmdHead = buffer.getByte(oldReaderIndex);
-					if (cmdHead == ConstDefine.CMD_HEAD) {//按MCU数据中心与工行系统通讯协议解析
+					if (cmdHead == ConstDefine.CMD_HEAD) {//按MCU数据中心与出租车系统通讯协议解析
 						packLen = buffer.getInt(oldReaderIndex + 1);
 						if (packLen >= ConstDefine.MIN_CMD_LENGTH - 2) {//长度大于8
 							if (packLen + 2 > bufLen) {//包长度+2为完整包的长度								

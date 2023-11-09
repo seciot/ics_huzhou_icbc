@@ -7,7 +7,7 @@ package com.jadic.utils;
 
 public final class ConstDefine {
 	
-  /***********************湖州对接工行************************/
+  /***********************湖州对接出租车************************/
 	public static final int MIN_CMD_LENGTH = 22;//数据包最小长度 数据体为空的时候
 	
 	public static final byte CMD_HEAD = 0x7C;						//命令头
@@ -24,9 +24,10 @@ public final class ConstDefine {
 	public static final byte CMD_SEND_DATA = 0x03;					//返回明细数据
 	public static final byte CMD_SEND_OK = 0x04;					//本次返回数据完成
 	
-  /***********************湖州对接工行************************/
+  /***********************湖州对接出租车************************/
 	
-	
+
+
 	public static final byte CMDTYPE1 = (byte)0x7C;
 	public static final byte CMDTYPE2 = (byte)0x7D;
 

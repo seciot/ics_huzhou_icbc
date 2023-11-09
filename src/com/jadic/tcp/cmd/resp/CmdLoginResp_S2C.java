@@ -54,3 +54,4 @@ public class CmdLoginResp_S2C extends TcpCmdHead {
 	}
 	
 }
+

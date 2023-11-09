@@ -17,6 +17,7 @@ import com.jadic.utils.KKTool;
 
 public class TcpChannel {
 
+
 	private Channel channel;
 	private long lastConnTime;
 	private byte[] posId;

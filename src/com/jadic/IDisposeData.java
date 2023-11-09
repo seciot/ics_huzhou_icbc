@@ -11,3 +11,4 @@ public interface IDisposeData {
 	public void disposeData(TcpChannel tcpChannel, ChannelBuffer channelBuffer);
 
 }
+

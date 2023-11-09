@@ -7,6 +7,7 @@ package com.jadic.cmd;
 import org.jboss.netty.buffer.ChannelBuffer;
 
 
+
 public class CmdHeadPos2Ic extends CmdHead {
 
 	private byte[] tId;

@@ -14,6 +14,7 @@ public class KKTimer extends TimerTask {
     private long period = 1000L;//定时器定时执行任务的间隔
     private boolean isTaskStarted = false;
 
+
     public KKTimer(IKKTimer kkTimer) {
     	super();
         this.kkTimer = kkTimer;

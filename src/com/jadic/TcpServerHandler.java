@@ -20,6 +20,7 @@ import com.jadic.utils.KKTool;
 
 public class TcpServerHandler extends SimpleChannelHandler {
 
+
 	@Override
 	public void channelConnected(ChannelHandlerContext ctx, ChannelStateEvent event)
 			throws Exception {

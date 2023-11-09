@@ -34,3 +34,4 @@ public class CmdEnd {
 		this.lrc2 = lrc2;
 	}
 }
+
